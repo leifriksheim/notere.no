@@ -45,6 +45,7 @@ header {
   padding-bottom: 30vh;
 }
 .editable {
+  cursor: text;
   margin: 0;
   min-height: calc(40vh - 60px);
   outline: 0;
