@@ -1,14 +1,9 @@
-body[theme="dark"] {
-  background-color: black;
-  color: white;
-}
-
-body[theme="dark"] core-toggle {
+body[mode="dark"] core-toggle {
   --core-color-focus: var(--core-color-ui);
 }
 
 .medium-editor-placeholder:after {
-  color: gray;
+  color: var(--core-color-ui);
   text-transform: none;
 }
 
@@ -29,9 +24,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+core-tab {
+  font-size: 16px;
+  border-bottom: 0;
+  background: var(--core-color-ui-lightest);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 header {
   padding-left: var(--core-space-md);
   padding-right: var(--core-space-md);
+  border-bottom: 1px solid var(--core-color-ui-lighter);
   display: flex;
   height: 60px;
   align-items: center;
@@ -39,6 +43,8 @@ header {
 }
 
 .notepad {
+  padding-left: var(--core-space-md);
+  padding-right: var(--core-space-md);
   width: 100%;
   margin: 0 auto;
   max-width: 800px;
