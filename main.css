@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body[mode="dark"] core-toggle {
   --core-color-focus: var(--core-color-ui);
 }
@@ -19,7 +28,7 @@ body[theme="light"] {
 
 body {
   transition: background 0.5s ease;
-  font-size: 18px;
+  font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -48,13 +57,13 @@ header {
   width: 100%;
   margin: 0 auto;
   max-width: 800px;
-  padding-top: 30vh;
+  padding-top: 10vh;
   padding-bottom: 30vh;
 }
 .editable {
   cursor: text;
   margin: 0;
-  min-height: calc(40vh - 60px);
+  min-height: calc(60vh - 60px);
   outline: 0;
   border: 0;
 }
