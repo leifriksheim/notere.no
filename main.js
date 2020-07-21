@@ -1,6 +1,6 @@
 import options from "./options.js";
 
-import { outlineWatcher } from "https://unpkg.com/core-elements@latest";
+import { outlineWatcher } from "https://unpkg.com/core-elements@latest/dist/main.es.js";
 import { Toggle } from "https://unpkg.com/core-elements@latest/dist/components/toggle.js";
 import {
   Tabs,
