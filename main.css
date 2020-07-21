@@ -36,7 +36,7 @@ body {
 core-tab {
   font-size: 16px;
   border-bottom: 0;
-  background: var(--core-color-ui-lightest);
+  background: var(--core-color-white);
   border-radius: 10px;
   cursor: pointer;
 }
@@ -44,7 +44,7 @@ core-tab {
 header {
   padding-left: var(--core-space-md);
   padding-right: var(--core-space-md);
-  border-bottom: 1px solid var(--core-color-ui-lighter);
+  border-bottom: 1px solid var(--core-color-ui-weak);
   display: flex;
   height: 60px;
   align-items: center;
