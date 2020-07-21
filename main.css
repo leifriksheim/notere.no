@@ -21,11 +21,6 @@ body[theme="dark"] ::selection {
   background: white;
 }
 
-body[theme="light"] {
-  background-color: white;
-  color: initial;
-}
-
 body {
   transition: background 0.5s ease;
   font-size: 16px;
