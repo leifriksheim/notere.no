@@ -22,6 +22,8 @@ body[theme="dark"] ::selection {
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-color: var(--core-color-white);
   transition: background 0.5s ease;
   font-size: 16px;
